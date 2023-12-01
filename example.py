@@ -8,3 +8,4 @@ def something():
     return 789
 
 print(something())
+print(something())

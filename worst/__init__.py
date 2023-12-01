@@ -9,6 +9,7 @@ def repl():
         try:
             i = input(">>> ")
         except KeyboardInterrupt:
+            print()
             break
         if not i:
             continue
